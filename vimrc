@@ -53,10 +53,6 @@ set cursorcolumn
 :hi Pmenu  cterm=bold ctermbg=242 ctermfg=14
 
 
-let g:EclimTaglistEnabled=1
-let g:EclimProjectTreeAutoOpen=1
-let g:EclimProjectTreeExpandPathOnOpen=1
-
 
 "æ¾ç¤ºå½ååéçå®ä¹
 nmap <silent> <F3>  [i
