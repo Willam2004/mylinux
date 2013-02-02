@@ -1,0 +1,47 @@
+!!========================
+!! RXVT-unicode setting
+!! Author:		Pan Guanjing
+!! Last Modified:	Sun. May 16, 18:30
+!!=======================
+
+!!Transparent
+!!URxvt*transparent:false
+URxvt*geometry:124x24
+URxvt*borderLess:false
+URxvt.background:	rgba:0000/0000/0000/dddd
+URxvt.depth:		32
+URxvt.iconFile:		/usr/share/icons/clarity-dark_canus/scalable/apps/terminal.svg
+
+URxvt.termName:		rxvt-unicode
+
+URxvt.foreground: 	white
+URxvt.font:		xft:Bitstream Vera Sans Mono-11,xft:WenQuanYi Bitmap Song-10
+URxvt.boldFont:		xft:Bitstream Vera Sans Mono-11:Bold,xft:WenQuanYi Bitmap Seng-10:Bold
+URxvt.cursorColor: 	cyan
+URxvt.underlineColor: 	green
+
+
+
+URxvt.saveLines:	12000
+URxvt.scrollBar:	false	
+URxvt.scrollstyle: 	rxvt	
+
+
+
+Urxvt.secondaryScroll:  true 
+
+!!Make urxvt tab
+URxvt.inputMethod:	fcitx
+URxvt.preeditType:	Root
+
+URxvt.perl-ext-common:	default,matcher,clipboard
+URxvt.urlLauncher:	chromium
+URxvt.colorUL:		#86a2be
+URxvt.matcher.button:	1
+
+! Xft settings ---------------------------------------------------------------
+Xft.antialias: true
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+Xft.rgba: rgb
