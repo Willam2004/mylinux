@@ -1,5 +1,3 @@
-"filetype off
-"call pathogen#infect()
 syntax on
 filetype plugin indent on
 
@@ -27,12 +25,6 @@ set runtimepath=~/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,~/.vim/afte
 " Editing .vimrc
 :nmap <Leader>s :source $MYVIMRC
 :nmap <Leader>vv :e $MYVIMRC
-
-" Java Stuff
-:nmap <Leader>cc :Javac<cr>
-:nmap <Leader>jj :Java %<cr>
-:nmap <Leader>r  :JavaCorrect<cr>
-:nmap <Leader>i  :JavaImportMissing<cr>
 
 " If I forgot to sudo vim a file, do that with :w!!
 cmap w!! %!sudo tee > /dev/null %
@@ -97,7 +89,7 @@ au FileType vm set syntax=html
 
 
 
-" Last modified: 2012 Dec 14 09:25:19 AM
+" Last modified: 2013 2月 02 15时50分25秒
 map #2 :wq!
 set nocompatible
 
@@ -110,10 +102,3 @@ nmap <DOWN> <C-W>-
 
 set nocompatible 
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-Bundle 'gmarik/vundle'
-Bundle 'Jintian/vim-logfile'
-
-filetype plugin indent on
